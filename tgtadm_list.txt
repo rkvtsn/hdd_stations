@@ -1,0 +1,180 @@
+Target 1: iscsi-portal:analyzator1
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00010000
+            SCSI SN: beaf10
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.105
+Target 2: iscsi-portal:analyzator2
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00020000
+            SCSI SN: beaf20
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.113
+Target 3: iscsi-portal:analyzator3
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00030000
+            SCSI SN: beaf30
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.114
+Target 4: iscsi-portal:analyzator4
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00040000
+            SCSI SN: beaf40
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.110
+Target 5: iscsi-portal:analyzator5
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00050000
+            SCSI SN: beaf50
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.105
+Target 6: iscsi-portal:analyzlth
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00060000
+            SCSI SN: beaf60
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.108
+Target 7: iscsi-portal:apknaprmv
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00070000
+            SCSI SN: beaf70
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.102
+Target 8: iscsi-portal:apkrmv
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00080000
+            SCSI SN: beaf80
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.101
+Target 9: iscsi-portal:decision
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00090000
+            SCSI SN: beaf90
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.98.106
+Target 10: iscsi-portal:quality
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     000a0000
+            SCSI SN: beaf100
+            Size: 0 MB
+            Online: Yes
+            Removable media: No
+            Backing store type: rdwr
+            Backing store path: None
+    Account information:
+    ACL information:
+        192.168.1.235

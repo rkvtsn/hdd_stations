@@ -1,0 +1,13 @@
+  Reading all physical volumes.  This may take a while...
+  Found volume group "apknaprmv" using metadata type lvm2
+  Found volume group "decision" using metadata type lvm2
+  Found volume group "apkrmv" using metadata type lvm2
+  Found volume group "analyzlth" using metadata type lvm2
+  Found volume group "analyzator5" using metadata type lvm2
+  Found volume group "analyzator4" using metadata type lvm2
+  Found volume group "analyzator3" using metadata type lvm2
+  Found volume group "analyzator2" using metadata type lvm2
+  Found volume group "analyzator1" using metadata type lvm2
+  Found volume group "VolGroup00" using metadata type lvm2
+  Found volume group "quality" using metadata type lvm2
+

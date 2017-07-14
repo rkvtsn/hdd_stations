@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddStationDialog</class>
+ <widget class="QDialog" name="AddStationDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавление бездисковой станции</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="11" column="0" colspan="3">
+     <widget class="QLineEdit" name="edit_gate">
+      <property name="inputMask">
+       <string>999.999.999.999; </string>
+      </property>
+      <property name="placeholderText">
+       <string>XXX.XXX.XXX.XXX</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="3">
+     <widget class="QLineEdit" name="edit_mask">
+      <property name="inputMask">
+       <string>999.999.999.999; </string>
+      </property>
+      <property name="placeholderText">
+       <string>XXX.XXX.XXX.XXX</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0">
+     <widget class="QPushButton" name="btn_ok">
+      <property name="text">
+       <string>Начать настройку</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="3">
+     <widget class="QLineEdit" name="edit_ip">
+      <property name="inputMask">
+       <string>999.999.999.999; </string>
+      </property>
+      <property name="placeholderText">
+       <string>XXX.XXX.XXX.XXX</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0" colspan="3">
+     <widget class="QLineEdit" name="edit_subnet">
+      <property name="inputMask">
+       <string>999.999.999.999; </string>
+      </property>
+      <property name="placeholderText">
+       <string>XXX.XXX.XXX.XXX</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="2">
+     <widget class="QPushButton" name="btn_cancel">
+      <property name="text">
+       <string>Отмена</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="3">
+     <widget class="QLineEdit" name="edit_mac">
+      <property name="inputMask">
+       <string>XX-XX-XX-XX-XX-XX; </string>
+      </property>
+      <property name="placeholderText">
+       <string>FF:FF.FF:FF.FF:FF</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>IP-адрес клиентской станции</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>MAC-адрес</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Наименование логической станции</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Маска подсети</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Широковещательный адрес</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Адрес подсети</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="QLineEdit" name="edit_station_name">
+      <property name="maxLength">
+       <number>255</number>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="1">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="13" column="0" colspan="3">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Preferred</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>10</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>edit_station_name</tabstop>
+  <tabstop>edit_mac</tabstop>
+  <tabstop>edit_mask</tabstop>
+  <tabstop>edit_ip</tabstop>
+  <tabstop>edit_subnet</tabstop>
+  <tabstop>edit_gate</tabstop>
+  <tabstop>btn_ok</tabstop>
+  <tabstop>btn_cancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

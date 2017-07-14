@@ -1,0 +1,494 @@
+  --- Logical volume ---
+  LV Name                /dev/apknaprmv/rootfs
+  VG Name                apknaprmv
+  LV UUID                ufjZbh-5KH0-yBK3-feC4-36wT-Yloq-2Cgwq2
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:13
+
+  --- Logical volume ---
+  LV Name                /dev/apknaprmv/swap
+  VG Name                apknaprmv
+  LV UUID                q9v6dl-LDTD-3FaK-gCMD-Xneu-lsnM-7o3bG0
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                1016,00 MB
+  Current LE             254
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:14
+
+  --- Logical volume ---
+  LV Name                /dev/decision/rootfs
+  VG Name                decision
+  LV UUID                diqYO2-2Fdq-Timu-IU9o-Lakm-4rsz-v3HZv2
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:15
+
+  --- Logical volume ---
+  LV Name                /dev/decision/swap
+  VG Name                decision
+  LV UUID                1CeFfs-9ATG-RYm4-qeff-YmjD-680S-6oKDrc
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                1016,00 MB
+  Current LE             254
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:16
+
+  --- Logical volume ---
+  LV Name                /dev/apkrmv/rootfs
+  VG Name                apkrmv
+  LV UUID                heiTeN-3Tb2-Dgjs-WlK0-THtb-daT3-YohNeH
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:17
+
+  --- Logical volume ---
+  LV Name                /dev/apkrmv/swap
+  VG Name                apkrmv
+  LV UUID                K9Jmn4-ngIR-XyZY-siFY-QPhN-Z5Wy-pOF9L5
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                1016,00 MB
+  Current LE             254
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:18
+
+  --- Logical volume ---
+  LV Name                /dev/analyzlth/rootfs
+  VG Name                analyzlth
+  LV UUID                x3PBSb-esMe-wePf-01HC-dxnF-kqJr-ZDvc7E
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:19
+
+  --- Logical volume ---
+  LV Name                /dev/analyzlth/swap
+  VG Name                analyzlth
+  LV UUID                k5fxxJ-yYxi-Xxjb-wTcT-XzFG-vDEg-C9INPj
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                1016,00 MB
+  Current LE             254
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:20
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator5/rootfs
+  VG Name                analyzator5
+  LV UUID                JUEzrO-eN0T-rkHO-ZmuF-vOsc-sqqK-4Tn1CC
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:21
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator5/swap
+  VG Name                analyzator5
+  LV UUID                PnrnpC-YG2j-Iu8s-9kMw-oBmE-Dn91-DzSKJr
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                1016,00 MB
+  Current LE             254
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:22
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator4/rootfs
+  VG Name                analyzator4
+  LV UUID                Xhyl6B-1BJ1-0fuu-z0Uo-ndq8-zzoE-hegS85
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:23
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator4/swap
+  VG Name                analyzator4
+  LV UUID                CC2eVG-EYpK-JtAH-nBCq-Wy0p-EdNg-PXxxfV
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                1016,00 MB
+  Current LE             254
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:24
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator3/rootfs
+  VG Name                analyzator3
+  LV UUID                zeylJt-IiVq-tPmf-TZtq-t6Du-004u-kpaIQs
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:25
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator3/swap
+  VG Name                analyzator3
+  LV UUID                1F7SzB-sNTb-Rw0c-ZaMM-2ay6-lPfk-f54FcN
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                1016,00 MB
+  Current LE             254
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:26
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator2/rootfs
+  VG Name                analyzator2
+  LV UUID                iXpZac-5uxc-ZFf5-xp7d-vZKL-EJtC-5lZfAI
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:27
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator2/swap
+  VG Name                analyzator2
+  LV UUID                ukA9Oc-8Fkr-R8bD-m9ep-Qgir-i44I-HAOEsC
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                1004,00 MB
+  Current LE             251
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:28
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator1/rootfs
+  VG Name                analyzator1
+  LV UUID                jF8Gaf-fyjy-KMTz-ZE6Q-mdxB-1FEc-NqvfWp
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:29
+
+  --- Logical volume ---
+  LV Name                /dev/analyzator1/swap
+  VG Name                analyzator1
+  LV UUID                9f8K3G-ia92-xaGo-dCao-yw3e-G0tJ-bXt648
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                976,00 MB
+  Current LE             244
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:30
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/root
+  VG Name                VolGroup00
+  LV UUID                hmoc33-imw8-hJOs-2cP3-0uSi-BmAR-WLjIMt
+  LV Write Access        read/write
+  LV Status              available
+  # open                 1
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:0
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/quality
+  VG Name                VolGroup00
+  LV UUID                6RKizv-j1G3-YqqO-2WGd-00aZ-xpcg-4UgJJC
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:1
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/swap
+  VG Name                VolGroup00
+  LV UUID                JCOQHr-96tH-WK5V-yWIt-zwMG-cG8w-jqHa4b
+  LV Write Access        read/write
+  LV Status              available
+  # open                 1
+  LV Size                5,81 GB
+  Current LE             186
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:2
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/analyzator1
+  VG Name                VolGroup00
+  LV UUID                23ZCi3-uD92-eP1l-GaAy-gWlb-0Vc8-w7y359
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:3
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/analyzator2
+  VG Name                VolGroup00
+  LV UUID                hts2rK-5cw2-C8NK-PEhR-9g4l-3Qky-FFXBCV
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:4
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/analyzator3
+  VG Name                VolGroup00
+  LV UUID                LtWO3Q-RCtP-MsqP-tqjq-c3lv-sPRZ-18vB0B
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:5
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/analyzator4
+  VG Name                VolGroup00
+  LV UUID                b7Lkjx-X3t5-9owd-x1A6-w1ZK-6SKK-QCK3oG
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:6
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/analyzator5
+  VG Name                VolGroup00
+  LV UUID                rTZO5Z-nE3X-dcup-NHmI-40c6-4waH-f7VDl6
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:7
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/analyzlth
+  VG Name                VolGroup00
+  LV UUID                Xh5pB2-jlsS-gHCt-fUSt-Ly1q-i7oc-Hal4nD
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:8
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/apkrmv
+  VG Name                VolGroup00
+  LV UUID                2FRuO1-p9ap-nZc8-KEim-MhOf-VKQd-TF4EDN
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:9
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/decision
+  VG Name                VolGroup00
+  LV UUID                r2zyDi-eJTg-HF7a-CCA9-WeND-ZTpK-mr6VWW
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:10
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/apknaprmv
+  VG Name                VolGroup00
+  LV UUID                6cUvja-RcMV-Yuag-2wwl-CBHF-eOPs-QGS3F9
+  LV Write Access        read/write
+  LV Status              available
+  # open                 2
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:11
+
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/bench
+  VG Name                VolGroup00
+  LV UUID                g3dCgI-JXqe-tGlN-8pTm-HMBk-ycY8-9aa5OF
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                20,00 GB
+  Current LE             640
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:12
+
+  --- Logical volume ---
+  LV Name                /dev/quality/rootfs
+  VG Name                quality
+  LV UUID                1TKlie-cjFd-Zui0-JRLl-Kfl2-ufE8-eJ3OpX
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                19,00 GB
+  Current LE             4864
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:31
+
+  --- Logical volume ---
+  LV Name                /dev/quality/swap
+  VG Name                quality
+  LV UUID                mmDPSI-v1Ok-a0DL-84Sh-PuuB-y5Dq-TFONCf
+  LV Write Access        read/write
+  LV Status              available
+  # open                 0
+  LV Size                924,00 MB
+  Current LE             231
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:32
