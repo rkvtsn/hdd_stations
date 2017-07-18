@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # coding=utf-8
 import sarge
-CMD = {
-    "LIST ONLINE": "tgtadm --lld iscsi --mode target --op show",  # статус
-    "lvscan": "lvscan",
-    "vgscan": "vgscan",
-}
+
+#     "tgtadm --lld iscsi --mode target --op show"
+#     "lvscan"
+#     "vgscan"
 
 ONLINE_TAG_BEGIN = "I_T nexus information:"
 ONLINE_TAG_END = "LUN information:"
@@ -19,7 +18,7 @@ def cmd_stations_status():
     p = sarge.run("tgtadm --lld iscsi --mode target --op show", stdout=sarge.Capture())
     if p.returncode != 0:
         raise IOError()
-    return p.stdout.read()
+    return p.stdout.read().decode('unicode_escape')
 
 
 def refresh_stations_status():

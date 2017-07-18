@@ -1,0 +1,7 @@
+DEFAULT menu.c32
+   promt 3
+   timeout 5
+
+   label MCBC 5.0_$client_name
+   	kernel vmlinuz-2.6.32-358.14.1.el6.x86_64
+   	append initrd=initrd_$image_name.img

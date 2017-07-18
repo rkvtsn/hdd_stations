@@ -22,9 +22,7 @@ class MainForm(QtGui.QMainWindow, Ui_MainWindow):
     def show_add_station_dialog(self):
         form = AddStationForm()
         if form.exec_():
-            print(1)
-        else:
-            print(2)
+            pass
 
         return
 

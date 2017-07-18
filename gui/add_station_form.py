@@ -20,4 +20,3 @@ class AddStationForm(QtGui.QDialog, Ui_AddStationDialog):
 
     def add_station(self):
         self.accept()
-        pass
