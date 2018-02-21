@@ -1,0 +1,3 @@
+sarge
+paramiko
+PyQt4

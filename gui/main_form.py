@@ -3,10 +3,10 @@
 import logging
 
 from PyQt4 import QtGui, QtCore, uic
-from PyQt4.QtCore import SIGNAL
 
 from gui.design.main_window import Ui_MainWindow
 from gui.add_station_form import AddStationForm
+
 
 class MainForm(QtGui.QMainWindow, Ui_MainWindow):
 
@@ -23,7 +23,6 @@ class MainForm(QtGui.QMainWindow, Ui_MainWindow):
         form = AddStationForm()
         if form.exec_():
             pass
-
         return
 
     def refresh(self):
@@ -55,9 +54,9 @@ class MainForm(QtGui.QMainWindow, Ui_MainWindow):
 
     def get_stations(self):
         stations = {}
-        with open('tgtadm_list.txt', 'r') as fp:
-            cmd_result = fp.read()
-        targets = list(filter(bool, cmd_result.split('#')))
+        # with open('tgtadm_list.txt', 'r') as fp:
+        #     cmd_result = fp.read()
+        # targets = list(filter(bool, cmd_result.split('#')))
 
         return stations
 

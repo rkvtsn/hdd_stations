@@ -1,5 +1,5 @@
 
-  <target dbz-cluster:$target_name>
+  <target iscsicluster:$target_name>
   	backing-store /dev/arms/$lvm_volume_name
   	initiator-address $client_ip_address
   </target>

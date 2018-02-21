@@ -1,10 +1,11 @@
-#!/usr/bin/env python
+#!/usr/local/bin/python3.6
 # coding=utf-8
 import sys, logging
 
 from PyQt4 import QtGui, QtCore
 
 from gui.main_form import MainForm
+
 
 def run():
     logging.info(u'"РП" запущено')

@@ -106,7 +106,7 @@
   echo "Waiting for driver initialization."
   sleep 5
   echo "Configuring network interfaces."
-  ifconfig eth0 (оптический сетевой интерфейс) $client_ip_address netmask $mask_subnet
+  ifconfig eth0 $client_ip_address netmask $mask_subnet
   echo "Connecting iSCSI-target."
   iscsistart -i $client_name -t bdz-cluster: $target_name -g 1 -a 10.0.49.25
   stabilized --hash --interval 1000 /proc/scsi/scsi

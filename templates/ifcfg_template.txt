@@ -1,11 +1,11 @@
 ONBOOT=yes
-NETWORK= $mask_subnet
+NETWORK= $subnet
 BOOTPROTO=static
 IPADDR= $client_ip_address
 DEVICE=eth0
 MTU=1500
-BROADCAST=$broadcast_net
+BROADCAST=$broadcast
 NOZEROCONFIG=no
 MACADDR=
 USERCTL=no
-NETMASK=$mask_net
+NETMASK=$mask

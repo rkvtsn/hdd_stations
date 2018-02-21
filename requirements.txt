@@ -1,2 +1,8 @@
-
-.\addons\PyQt4-4.11.4-cp36-cp36m-win_amd64.whl
+addons\cffi-1.11.2-cp36-cp36m-manylinux1_x86_64.whl
+addons\bcrypt-3.1.4-cp36-cp36m-manylinux1_x86_64.whl
+addons\asn1crypto-0.24.0-py2.py3-none-any.whl
+addons\idna-2.6-py2.py3-none-any.whl
+addons\cryptography-2.1.4-cp36-cp36m-manylinux1_x86_64.whl
+addons\PyNaCl-1.2.1-cp36-cp36m-manylinux1_x86_64
+addons\pyasn1-0.4.2-py2.py3-none-any
+addons\paramiko-2.4.0-py2.py3-none-any.whl

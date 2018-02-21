@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding=utf-8
+import sys
 import sarge
+from paramiko.client import SSHClient
+import paramiko
 
 #     "tgtadm --lld iscsi --mode target --op show"
 #     "lvscan"
@@ -35,4 +38,12 @@ def refresh_stations_status():
     return stations
 
 
-print(refresh_stations_status())
+# print(refresh_stations_status())
+
+
+
+ssh = SSHClient()
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+ssh.connect("192.168.110.199", username="root", password="12345678")
+_, stdout, stderr = ssh.exec_command('python ~/rk/train_field.py')
+print("STDOUT:\n%s\n\nSTDERR:\n%s\n" % (stdout.read(), stderr.read()))
